@@ -1,7 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    padding-top: 70px;
 }
 
 
@@ -11,12 +9,12 @@
     clear: both;
 }
 
-header{
-    background-color: #2C3F51;
 
+nav{
+    background-color: #2C3F51;
 }
 
-
+}
 
 header .left h2{
     font-size: 20px;
@@ -24,14 +22,12 @@ header .left h2{
 
 }
 
-header .right button{
-    margin-top: 20px;
 
-}
-
-.img img{
+#img{
     height: 240px;
     width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
 }
 
 .green , .green-2{
@@ -45,4 +41,13 @@ header .right button{
     border-radius: 5px;
     width: 100%;
     margin: 0 auto 20px;
+    object-fit: cover;
+}
+
+.blu-2{
+    background-color: #2C3F51;
+}
+
+.black{
+    background-color: #1A252F;
 }
