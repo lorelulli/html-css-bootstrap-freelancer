@@ -1,5 +1,5 @@
 body{
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 
@@ -10,10 +10,19 @@ body{
 }
 
 
-nav{
+.navbar{
     background-color: #2C3F51;
+
 }
 
+.navbar-default .navbar-nav>li>a ,
+.navbar-default .navbar-brand {
+    color: white;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
 }
 
 header .left h2{
@@ -22,8 +31,23 @@ header .left h2{
 
 }
 
+#menunav{
+    display: inline;
+    color: white;
+    float: left;
+}
+
+.hamburger{
+    float: left;
+
+}
+
+.immagineimg{
+    padding-top: 170px;
+}
 
 #img{
+
     height: 240px;
     width: 100%;
     object-fit: contain;
@@ -50,4 +74,91 @@ header .left h2{
 
 .black{
     background-color: #1A252F;
+}
+
+.green h1, .icon, p{
+    color: white;
+}
+
+.green h1{
+    font-size: 64px;
+}
+
+.green .icon{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 36px;
+}
+
+.green p{
+    font-size: 20px;
+    padding-bottom: 200px;
+}
+
+.portfolio{
+    font-size: 36px;
+    color: #2C3F51;
+    margin-bottom: 20px;
+}
+
+.green-2 h2,span,{
+    color: white;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+#stellabianca{
+    color: white;
+}
+
+.green-2 p{
+    font-size: 20px;
+
+}
+
+.green-2 button{
+    padding-bottom: 100px;
+}
+
+.white-2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.white-2 h2,span{
+    font-size: 36px;
+    color: #2C3F51;
+}
+
+#portfolio{
+    color: #2C3F51;
+    padding-top: 100px;
+}
+
+.primascheda{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.secondascheda,.terzascheda{
+    margin-bottom: 50px;
+}
+
+.blu2 p,h2{
+    color: white;
+}
+
+.blu-2 h2{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.blu-2 p{
+    font-size: 20px;
+
+}
+
+footer p{
+    padding: 24px 0;
+    font-size: 12px;
 }
